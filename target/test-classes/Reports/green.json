@@ -1,0 +1,223 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 69827207628,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verifying adactin hotel login with valid credentials",
+        "description": "",
+        "id": "verify-booking-in-adactin-hotel;verifying-adactin-hotel-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 319249,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the login page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7739883240,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter \"Arunkumar26\" \"YU8K91\" and click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Arunkumar26\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"YU8K91\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinition.user_should_enter_and_click_login_button(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4476312602,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should select all the fields \"London\" \"Hotel Sunshine\" \"Standard\" \"1 - One\" \"06/08/2021\" \"07/08/2021\" \"2 - Two\" \"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"London\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"06/08/2021\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"07/08/2021\"",
+                  "offset": 94
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 107
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 117
+                }
+              ],
+              "location": "StepDefinition.user_should_select_all_the_fields(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4031645432,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click hotel and click Continue button",
+            "match": {
+              "location": "StepDefinition.user_should_click_hotel_and_click_Continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2053326856,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select all the fields \"Arun\" \"kumar\" \"chennai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Arun\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"kumar\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"chennai\"",
+                  "offset": 49
+                }
+              ],
+              "location": "StepDefinition.user_should_select_all_the_fields(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 865325849,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should  enter",
+            "match": {
+              "location": "StepDefinition.user_should_enter(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "creditno",
+                  "cardtype",
+                  "expiryM",
+                  "expiryY",
+                  "cvv"
+                ]
+              },
+              {
+                "cells": [
+                  "1234567887654321",
+                  "Visa",
+                  "June",
+                  "2022",
+                  "789"
+                ]
+              },
+              {
+                "cells": [
+                  "8765432112345678",
+                  "Master card",
+                  "July",
+                  "2022",
+                  "123"
+                ]
+              },
+              {
+                "cells": [
+                  "4321890765443321",
+                  "American Express",
+                  "August",
+                  "2022",
+                  "321"
+                ]
+              },
+              {
+                "cells": [
+                  "8695432112345678",
+                  "Master card",
+                  "March",
+                  "2022",
+                  "432"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14027061873,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should get Order ID",
+            "match": {
+              "location": "StepDefinition.user_should_get_Order_ID()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify booking in adactin hotel",
+    "description": "",
+    "id": "verify-booking-in-adactin-hotel",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Booking.feature",
+    "tags": []
+  }
+]
